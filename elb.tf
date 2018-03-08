@@ -4,7 +4,7 @@
 
 resource "aws_elb" "elb" {
   name               = "${var.elb_name}"
-  availability_zones = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+  availability_zones = "${var.elb_zones}"
   
   listener {
     instance_port      = 80

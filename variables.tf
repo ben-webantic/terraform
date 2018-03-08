@@ -2,6 +2,10 @@
  * Variables storage
  */
 
+variable amazon_account {
+  description = "The Amazon numeric account ID"
+}
+
 variable build_git_token {
   description = "The token used to access private repos"
 }
@@ -39,18 +43,6 @@ variable container_port {
   description = "The port the container should use"
 }
 
-variable repository_name {
-  description = "The name of the repository to put the built docker image into"
-}
-
-variable service_name {
-  description = "The name of the ECS Service to use"
-}
-
-variable amazon_account {
-  description = "The Amazon numeric account ID"
-}
-
 variable deploy_env_mongo_url {
   default = "mongodb://mongo/meteor"
   description = "The Mongo URL to pass to the Docker image"
@@ -82,8 +74,21 @@ variable elb_name {
   description = "The name of the ELB account"
 }
 
+variable elb_zones {
+  description = "The zones for the ELB to be in"
+  default = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+}
+
 variable iam_role_name {
   description = "The name of the IAM role"
+}
+
+variable repository_name {
+  description = "The name of the repository to put the built docker image into"
+}
+
+variable service_name {
+  description = "The name of the ECS Service to use"
 }
 
 variable task_definition_family {
