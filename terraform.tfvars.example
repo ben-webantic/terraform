@@ -1,0 +1,81 @@
+/*
+ * Variables storage
+ *
+ * Will pull from TF_VAR_variable_name in the environment
+ */
+
+amazon_account = ""
+
+build_git_token = ""
+
+build_git_url = ""
+
+build_image_repo_name = ""
+
+build_npm_token = ""
+
+codebuild_project_description = ""
+
+codebuild_project_name = ""
+
+container_name = ""
+
+container_port = ""
+
+deploy_env_mongo_url = ""
+
+deploy_env_oauthkey = ""
+
+deploy_env_port = ""
+
+deploy_env_root_url = ""
+
+docker_name = ""
+
+docker_version = ""
+
+ecs_autoscaling_desired_capacity = ""
+
+ecs_autoscaling_max_size = ""
+
+ecs_autoscaling_min_size = ""
+
+ecs_autoscaling_name = ""
+
+ecs_cluster_name = ""
+
+ecs_key_pair_name = ""
+
+ecs_launch_configuration_image_id = ""
+
+ecs_launch_configuration_instance_type = ""
+
+ecs_launch_configuration_name = ""
+
+ecs_service_desired_count = ""
+
+elb_name = ""
+
+elb_zones = ""
+
+iam_role_name = ""
+
+repository_name = ""
+
+service_name = ""
+
+task_definition_family = ""
+
+vpc_availability_zone = ""
+
+vpc_cidr = ""
+
+vpc_gateway_name = ""
+
+vpc_name = ""
+
+vpc_routes_name = ""
+
+vpc_security_group_name = ""
+
+vpc_subnet_name = ""
