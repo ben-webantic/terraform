@@ -3,5 +3,5 @@
  */
 
 resource "aws_ecs_cluster" "cluster-resource" {
-	name = "${var.cluster_name}"
+	name = "${var.ecs_cluster_name}"
 }
